@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Color.h" />
+    <ClInclude Include="IRenderer.h" />
+    <ClInclude Include="Material.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="UniformObject.h" />
+    <ClInclude Include="Vertex.h" />
+    <ClInclude Include="VertexAttributeObject.h" />
+    <ClInclude Include="OpenGL_Renderer.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="glUtility.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="VertexArray.h" />
+    <ClInclude Include="BufferObject.h" />
+    <ClInclude Include="FreetypeFont.h" />
+    <ClInclude Include="Geometry.h" />
+    <ClInclude Include="IRenderPass.h">
+      <Filter>Render Passes</Filter>
+    </ClInclude>
+    <ClInclude Include="StandardRenderPass.h">
+      <Filter>Render Passes</Filter>
+    </ClInclude>
+    <ClInclude Include="OculusCamera.h">
+      <Filter>Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="DummyCamera.h">
+      <Filter>Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="IRenderTarget.h">
+      <Filter>Render Targets</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultRenderTarget.h">
+      <Filter>Render Targets</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseRenderPass.h">
+      <Filter>Render Passes</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderChain.h">
+      <Filter>Render Passes</Filter>
+    </ClInclude>
+    <ClInclude Include="SplitScreenPass.h">
+      <Filter>Render Passes</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureRenderTarget.h">
+      <Filter>Render Targets</Filter>
+    </ClInclude>
+    <ClInclude Include="PostProcessPass.h">
+      <Filter>Render Passes</Filter>
+    </ClInclude>
+    <ClInclude Include="OculusPostProcessPass.h">
+      <Filter>Render Passes</Filter>
+    </ClInclude>
+    <ClInclude Include="glError.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="glInclude.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h" />
+    <ClInclude Include="GraphicsCommon.h" />
+    <ClInclude Include="RenderableComponent.h">
+      <Filter>Renderable Components</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticMesh.h">
+      <Filter>Renderable Components</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderableComponentBuilder.h">
+      <Filter>Renderable Components</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticMeshComponent.h">
+      <Filter>Renderable Components</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderOperation.h">
+      <Filter>Render Operations</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticMeshBatchRender.h">
+      <Filter>Render Operations</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Cameras</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Color.cpp" />
+    <ClCompile Include="Material.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="OpenGL_Renderer.cpp">
+      <Filter>OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="glUtility.cpp">
+      <Filter>OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="FreetypeFont.cpp" />
+    <ClCompile Include="StandardRenderPass.cpp">
+      <Filter>Render Passes</Filter>
+    </ClCompile>
+    <ClCompile Include="OculusCamera.cpp">
+      <Filter>Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="DummyCamera.cpp">
+      <Filter>Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultRenderTarget.cpp">
+      <Filter>Render Targets</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseRenderPass.cpp">
+      <Filter>Render Passes</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderChain.cpp">
+      <Filter>Render Passes</Filter>
+    </ClCompile>
+    <ClCompile Include="SplitScreenPass.cpp">
+      <Filter>Render Passes</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureRenderTarget.cpp">
+      <Filter>Render Targets</Filter>
+    </ClCompile>
+    <ClCompile Include="PostProcessPass.cpp">
+      <Filter>Render Passes</Filter>
+    </ClCompile>
+    <ClCompile Include="OculusPostProcessPass.cpp">
+      <Filter>Render Passes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="GraphicsCommon.cpp" />
+    <ClCompile Include="RenderableComponent.cpp">
+      <Filter>Renderable Components</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticMesh.cpp">
+      <Filter>Renderable Components</Filter>
+    </ClCompile>
+    <ClCompile Include="BufferObject.cpp" />
+    <ClCompile Include="RenderableComponentBuilder.cpp">
+      <Filter>Renderable Components</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticMeshComponent.cpp">
+      <Filter>Renderable Components</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticMeshBatchRender.cpp">
+      <Filter>Render Operations</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderOperation.cpp">
+      <Filter>Render Operations</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Cameras</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="OpenGL">
+      <UniqueIdentifier>{450b8ec6-429b-44f4-afb6-0a9a229ff9f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{10fd306c-dac7-4fc8-99c6-4dfa6aac6d48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderable Components">
+      <UniqueIdentifier>{35b701f8-c226-47b0-b23d-963b5a81f542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render Passes">
+      <UniqueIdentifier>{89112bda-c596-4da5-aa0e-56ceeb8c5d75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cameras">
+      <UniqueIdentifier>{4c0a1a25-a427-45c4-b5bc-5936ec4737d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render Targets">
+      <UniqueIdentifier>{97a30a1d-cccf-4f82-bcd3-45f38b3158f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render Operations">
+      <UniqueIdentifier>{8ff09cd5-0d06-42fe-9fc8-383e48684083}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\data\shaders\Font.fragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\data\shaders\Font.vertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\data\shaders\Oculus.vertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\data\shaders\Oculus.fragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\data\shaders\StaticMesh.vertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\data\shaders\StaticMesh.fragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

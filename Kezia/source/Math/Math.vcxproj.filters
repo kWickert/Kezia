@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="AxisAlignedBoundingBox.h" />
+    <ClInclude Include="BoundingCircle.h" />
+    <ClInclude Include="KeziaRandom.h" />
+    <ClInclude Include="MathUtility.h" />
+    <ClInclude Include="Matrix2.h" />
+    <ClInclude Include="Matrix3.h" />
+    <ClInclude Include="Matrix4.h" />
+    <ClInclude Include="MatrixStack.h" />
+    <ClInclude Include="Path.h" />
+    <ClInclude Include="Spline.h" />
+    <ClInclude Include="Vector2.h" />
+    <ClInclude Include="Vector3.h" />
+    <ClInclude Include="Vector4.h" />
+    <ClInclude Include="KeziaTrig.h" />
+    <ClInclude Include="Quaternion.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BoundingCircle.cpp" />
+    <ClCompile Include="KeziaTrig.cpp" />
+  </ItemGroup>
+</Project>

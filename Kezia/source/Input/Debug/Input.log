@@ -1,0 +1,22 @@
+﻿Build started 1/18/2014 2:46:25 PM.
+     1>Project "C:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\source\Input\Input.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Input.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\source\ /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\zlib /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\bullet\src /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\TinyThread++\source /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\freetype\include /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\freetype\include\freetype2 /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\FreeImage\Dist /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\glfw\include /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\glew\include /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\freeglut\include /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\tinyxml2\ /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\pugixml\src /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\SixenseSDK\include /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\Assimp\include /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\LibOVR\Include /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\LibOVR\Src /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Sixense_ControllerManager.cpp
+         Sixense_ControllerManager.cpp
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\lib\KeziaInputd.lib" /NOLOGO Debug\OculusController.obj
+         Debug\PlayerController.obj
+         Debug\Sixense_ControllerManager.obj
+         Debug\Sixense_MotionController.obj
+         Debug\WindowsKeyboardController.obj
+         Input.vcxproj -> C:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\lib\KeziaInputd.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\Input.unsuccessfulbuild".
+         Touching "Debug\Input.lastbuildstate".
+     1>Done Building Project "C:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\source\Input\Input.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.61

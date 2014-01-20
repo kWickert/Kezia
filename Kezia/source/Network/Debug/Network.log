@@ -1,0 +1,23 @@
+﻿Build started 1/18/2014 12:49:13 AM.
+     1>Project "C:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\source\Network\Network.vcxproj" on node 4 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\Network.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\Network.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\source\ /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\zlib /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\bullet\src /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\TinyThread++\source /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\freetype\include /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\freetype\include\freetype2 /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\FreeImage\Dist /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\glfw\include /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\glew\include /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\freeglut\include /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\tinyxml2\ /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\pugixml\src /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\SixenseSDK\include /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\Assimp\include /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\LibOVR\Include /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\LibOVR\Src /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Packet.cpp WindowsSocket.cpp
+         WindowsSocket.cpp
+         Packet.cpp
+         Generating Code...
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\lib\KeziaNetworkd.lib" /NOLOGO Debug\Packet.obj
+         Debug\WindowsSocket.obj
+         Network.vcxproj -> C:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\lib\KeziaNetworkd.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\Network.unsuccessfulbuild".
+         Touching "Debug\Network.lastbuildstate".
+     1>Done Building Project "C:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\source\Network\Network.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.85

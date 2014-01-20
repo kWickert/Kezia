@@ -1,0 +1,18 @@
+﻿Build started 7/16/2013 6:29:18 PM.
+     1>Project "C:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\source\Math\Math.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "DebugInline\Math.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\source\ /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\zlib /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\TinyThread++\source /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\FreeImage\Dist /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\/../libs/glfw/include /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\glew\include /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\freeglut\include /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\tinyxml2\ /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\pugixml\src /Zi /nologo /W3 /WX- /Od /Ob2 /Oi /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"DebugInline\\" /Fd"DebugInline\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BoundingCircle.cpp
+         BoundingCircle.cpp
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\lib\KeziaMathd.lib" /NOLOGO DebugInline\BoundingCircle.obj
+         Math.vcxproj -> C:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\lib\KeziaMathd.lib
+       FinalizeBuildStatus:
+         Deleting file "DebugInline\Math.unsuccessfulbuild".
+         Touching "DebugInline\Math.lastbuildstate".
+     1>Done Building Project "C:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\source\Math\Math.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.66

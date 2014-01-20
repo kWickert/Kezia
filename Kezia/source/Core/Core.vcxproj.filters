@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Any.h" />
+    <ClInclude Include="Assert.h" />
+    <ClInclude Include="Clock.h" />
+    <ClInclude Include="CommandLineParser.h" />
+    <ClInclude Include="GenerateFilesCommandlet.h" />
+    <ClInclude Include="HashBufferJob.h" />
+    <ClInclude Include="HashedString.h" />
+    <ClInclude Include="IApplication.h" />
+    <ClInclude Include="IResource.h" />
+    <ClInclude Include="IResourceManager.h" />
+    <ClInclude Include="IWindow.h" />
+    <ClInclude Include="Job.h" />
+    <ClInclude Include="JobManager.h" />
+    <ClInclude Include="Keys.h" />
+    <ClInclude Include="KeziaResourceManager.h" />
+    <ClInclude Include="LoadFileJob.h" />
+    <ClInclude Include="NonCopyable.h" />
+    <ClInclude Include="PoolAllocator.h" />
+    <ClInclude Include="Profiler.h" />
+    <ClInclude Include="ProfileSection.h" />
+    <ClInclude Include="Registry.h" />
+    <ClInclude Include="Singleton.h" />
+    <ClInclude Include="SuperFastHash.h" />
+    <ClInclude Include="Time.h" />
+    <ClInclude Include="TypeList.h" />
+    <ClInclude Include="Types.h" />
+    <ClInclude Include="Windows_ResourceManager.h" />
+    <ClInclude Include="zlib_FileResource.h" />
+    <ClInclude Include="zlib_ResourceManager.h" />
+    <ClInclude Include="KeziaNew.h" />
+    <ClInclude Include="GLFW_Window.h">
+      <Filter>GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="GLFW_Application.h">
+      <Filter>GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="HashedRegistry.h" />
+    <ClInclude Include="StringUtilities.h" />
+    <ClInclude Include="WindowsInclude.h" />
+    <ClInclude Include="Logger.h" />
+    <ClInclude Include="Console.h" />
+    <ClInclude Include="CircularBuffer.h" />
+    <ClInclude Include="XmlNode.h" />
+    <ClInclude Include="FileResource.h" />
+    <ClInclude Include="DebugUtilities.h" />
+    <ClInclude Include="Blueprint.h" />
+    <ClInclude Include="Entity.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlObjectBuilder.h" />
+    <ClInclude Include="Pawn.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="AttachmentTarget.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="AttachableComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformationNode.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityTypes.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Clock.cpp" />
+    <ClCompile Include="CommandLineParser.cpp" />
+    <ClCompile Include="GenerateFilesCommandlet.cpp" />
+    <ClCompile Include="HashBufferJob.cpp" />
+    <ClCompile Include="Job.cpp" />
+    <ClCompile Include="JobManager.cpp" />
+    <ClCompile Include="KeziaResourceManager.cpp" />
+    <ClCompile Include="LoadFileJob.cpp" />
+    <ClCompile Include="PoolAllocator.cpp" />
+    <ClCompile Include="Profiler.cpp" />
+    <ClCompile Include="Windows_ResourceManager.cpp" />
+    <ClCompile Include="zlib_FileResource.cpp" />
+    <ClCompile Include="zlib_ResourceManager.cpp" />
+    <ClCompile Include="GLFW_Application.cpp">
+      <Filter>GLFW</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFW_Window.cpp">
+      <Filter>GLFW</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp" />
+    <ClCompile Include="Console.cpp" />
+    <ClCompile Include="XmlNode.cpp" />
+    <ClCompile Include="FileResource.cpp" />
+    <ClCompile Include="DebugUtilities.cpp" />
+    <ClCompile Include="Entity.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlObjectBuilder.cpp" />
+    <ClCompile Include="Pawn.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="AttachableComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="AttachmentTarget.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformationNode.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityTypes.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GLFW">
+      <UniqueIdentifier>{5e6047d9-9717-4636-97e7-2cae4e8fca33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{5569a9aa-1c93-4546-8f97-f27069a5993a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{7f7cbbe6-7410-4858-b9b0-e3f3966de4ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{95d418f0-6d40-4b2a-a94a-d6402c825762}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

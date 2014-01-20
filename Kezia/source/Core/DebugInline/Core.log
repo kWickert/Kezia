@@ -1,0 +1,51 @@
+﻿Build started 7/16/2013 6:29:18 PM.
+     1>Project "C:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\source\Core\Core.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "DebugInline\Core.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\source\ /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\zlib /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\TinyThread++\source /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\FreeImage\Dist /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\/../libs/glfw/include /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\glew\include /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\freeglut\include /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\tinyxml2\ /IC:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\..\libs\pugixml\src /Zi /nologo /W3 /WX- /Od /Ob2 /Oi /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"DebugInline\\" /Fd"DebugInline\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Clock.cpp CommandLineParser.cpp GLFW_Application.cpp GLFW_Window.cpp GenerateFilesCommandlet.cpp HashBufferJob.cpp Job.cpp JobManager.cpp KeziaResourceManager.cpp LoadFileJob.cpp PoolAllocator.cpp Profiler.cpp Windows_FileResource.cpp Windows_ResourceManager.cpp zlib_FileResource.cpp zlib_ResourceManager.cpp
+         Profiler.cpp
+         JobManager.cpp
+         GLFW_Application.cpp
+         Generating Code...
+         Compiling...
+         zlib_ResourceManager.cpp
+         zlib_FileResource.cpp
+         Windows_ResourceManager.cpp
+         Windows_FileResource.cpp
+         PoolAllocator.cpp
+         LoadFileJob.cpp
+         KeziaResourceManager.cpp
+         Job.cpp
+         HashBufferJob.cpp
+         GenerateFilesCommandlet.cpp
+         GLFW_Window.cpp
+         CommandLineParser.cpp
+         Clock.cpp
+         Generating Code...
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\lib\KeziaCored.lib" /NOLOGO DebugInline\Clock.obj
+         DebugInline\CommandLineParser.obj
+         DebugInline\GenerateFilesCommandlet.obj
+         DebugInline\GLFW_Application.obj
+         DebugInline\GLFW_Window.obj
+         DebugInline\HashBufferJob.obj
+         DebugInline\Job.obj
+         DebugInline\JobManager.obj
+         DebugInline\KeziaResourceManager.obj
+         DebugInline\LoadFileJob.obj
+         DebugInline\PoolAllocator.obj
+         DebugInline\Profiler.obj
+         DebugInline\Windows_FileResource.obj
+         DebugInline\Windows_ResourceManager.obj
+         DebugInline\zlib_FileResource.obj
+         DebugInline\zlib_ResourceManager.obj
+         Core.vcxproj -> C:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\\lib\KeziaCored.lib
+       FinalizeBuildStatus:
+         Deleting file "DebugInline\Core.unsuccessfulbuild".
+         Touching "DebugInline\Core.lastbuildstate".
+     1>Done Building Project "C:\Users\ghdemo\Documents\School\Projects\Engine\Kezia\source\Core\Core.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.64

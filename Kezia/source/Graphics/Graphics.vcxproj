@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="DebugInline|Win32">
+      <Configuration>DebugInline</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseRenderPass.h" />
+    <ClInclude Include="BufferObject.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="DefaultRenderTarget.h" />
+    <ClInclude Include="GraphicsCommon.h" />
+    <ClInclude Include="OculusPostProcessPass.h" />
+    <ClInclude Include="PostProcessPass.h" />
+    <ClInclude Include="glError.h" />
+    <ClInclude Include="glInclude.h" />
+    <ClInclude Include="IRenderTarget.h" />
+    <ClInclude Include="RenderableComponent.h" />
+    <ClInclude Include="RenderableComponentBuilder.h" />
+    <ClInclude Include="RenderChain.h" />
+    <ClInclude Include="RenderOperation.h" />
+    <ClInclude Include="Sprite.h" />
+    <ClInclude Include="StaticMesh.h" />
+    <ClInclude Include="StaticMeshBatchRender.h" />
+    <ClInclude Include="StaticMeshComponent.h" />
+    <ClInclude Include="TextureRenderTarget.h" />
+    <ClInclude Include="Color.h" />
+    <ClInclude Include="DummyCamera.h" />
+    <ClInclude Include="FreetypeFont.h" />
+    <ClInclude Include="Geometry.h" />
+    <ClInclude Include="glUtility.h" />
+    <ClInclude Include="IRenderer.h" />
+    <ClInclude Include="Material.h" />
+    <ClInclude Include="OculusCamera.h" />
+    <ClInclude Include="OpenGL_Renderer.h" />
+    <ClInclude Include="IRenderPass.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="SplitScreenPass.h" />
+    <ClInclude Include="StandardRenderPass.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="UniformObject.h" />
+    <ClInclude Include="Vertex.h" />
+    <ClInclude Include="VertexArray.h" />
+    <ClInclude Include="VertexAttributeObject.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseRenderPass.cpp" />
+    <ClCompile Include="BufferObject.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="DefaultRenderTarget.cpp" />
+    <ClCompile Include="GraphicsCommon.cpp" />
+    <ClCompile Include="OculusPostProcessPass.cpp" />
+    <ClCompile Include="PostProcessPass.cpp" />
+    <ClCompile Include="RenderableComponent.cpp" />
+    <ClCompile Include="RenderableComponentBuilder.cpp" />
+    <ClCompile Include="RenderChain.cpp" />
+    <ClCompile Include="RenderOperation.cpp" />
+    <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="StaticMesh.cpp" />
+    <ClCompile Include="StaticMeshBatchRender.cpp" />
+    <ClCompile Include="StaticMeshComponent.cpp" />
+    <ClCompile Include="TextureRenderTarget.cpp" />
+    <ClCompile Include="Color.cpp" />
+    <ClCompile Include="DummyCamera.cpp" />
+    <ClCompile Include="FreetypeFont.cpp" />
+    <ClCompile Include="glUtility.cpp" />
+    <ClCompile Include="Material.cpp" />
+    <ClCompile Include="OculusCamera.cpp" />
+    <ClCompile Include="OpenGL_Renderer.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="SplitScreenPass.cpp" />
+    <ClCompile Include="StandardRenderPass.cpp" />
+    <ClCompile Include="Texture.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\data\shaders\Font.fragment.glsl" />
+    <None Include="..\..\data\shaders\Font.vertex.glsl" />
+    <None Include="..\..\data\shaders\Oculus.vertex.glsl" />
+    <None Include="..\..\data\shaders\Oculus.fragment.glsl" />
+    <None Include="..\..\data\shaders\StaticMesh.fragment.glsl" />
+    <None Include="..\..\data\shaders\StaticMesh.vertex.glsl" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{92ECDD2D-77E2-4E5F-BB88-DA77EC73594F}</ProjectGuid>
+    <RootNamespace>Graphics</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugInline|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\Properties\KeziaProperties.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugInline|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\Properties\DebugInlineProperties.props" />
+    <Import Project="..\..\Properties\KeziaProperties.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\Properties\KeziaProperties.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)\lib\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugInline|Win32'">
+    <OutDir>$(SolutionDir)\lib\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <TargetName>Kezia$(ProjectName)d</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugInline|Win32'">
+    <TargetName>Kezia$(ProjectName)d</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)\lib\</OutDir>
+    <TargetName>Kezia$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugInline|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

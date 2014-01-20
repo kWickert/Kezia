@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="BulletDebugRenderer.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletPhysicsManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletPhysicsComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="SpherePhysicsComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticPlanePhysicsComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletComponentBuilder.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="CapsulePhysicsComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxPhysicsComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PhysicsManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletDebugRenderer.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletPhysicsManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticPlanePhysicsComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletPhysicsComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletUtility.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SpherePhysicsComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletComponentBuilder.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CapsulePhysicsComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxPhysicsComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{b0a57166-d5c2-4e81-b592-4a9b65a87488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{a7964f54-5c34-4100-a671-d6863989b2c3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
